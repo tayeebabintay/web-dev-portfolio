@@ -18,7 +18,12 @@
     background-position: top left, bottom right;
 }
 
-/* button style */
+/* shared style */
+
+
+.secondary-bg {
+    background-color: #FFF8F3;
+}
 
 .button {
     background-color: #FD6E0A;
@@ -87,4 +92,44 @@ nav ul li {
 
 .banner-profile-pic {
     width: 500px;
+}
+
+
+
+/*section 2 */
+
+.section-title {
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+}
+
+.secton-descrption {
+    font-size: 18px;
+    color: #757575;
+}
+
+
+/* about style*/
+.about {
+    border-radius: 10px;
+    padding: 131px 156px 131px 156px;
+    text-align: center;
+}
+
+.item-description {
+    font-weight: 600px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*main style*/
+main {
+    max-width: 1140PX;
+    margin: 0 auto;
 }
